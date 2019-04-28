@@ -7,8 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E0119B72273664000E5BA89 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0119B62273664000E5BA89 /* CoreDataStack.swift */; };
+		2E0119B922736B5700E5BA89 /* DocService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0119B822736B5700E5BA89 /* DocService.swift */; };
+		2E0119C022759ED300E5BA89 /* DocRecord+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0119BE22759ED200E5BA89 /* DocRecord+CoreDataClass.swift */; };
+		2E0119C122759ED300E5BA89 /* DocRecord+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0119BF22759ED300E5BA89 /* DocRecord+CoreDataProperties.swift */; };
+		2E0119C32275B35B00E5BA89 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0119C22275B35B00E5BA89 /* DetailViewController.swift */; };
+		2E0119C52275C69400E5BA89 /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0119C42275C69400E5BA89 /* PDFViewController.swift */; };
+		2E478A1C2273518200CB2B5F /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E478A1B2273518200CB2B5F /* MainTableViewCell.swift */; };
+		2E478A1E2273539600CB2B5F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E478A1D2273539600CB2B5F /* MainViewController.swift */; };
+		2E478A202273541700CB2B5F /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E478A1F2273541700CB2B5F /* RoundButton.swift */; };
 		2E7653A4226DD66F00570A80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7653A3226DD66F00570A80 /* AppDelegate.swift */; };
-		2E7653A6226DD66F00570A80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7653A5226DD66F00570A80 /* ViewController.swift */; };
 		2E7653A9226DD66F00570A80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E7653A7226DD66F00570A80 /* Main.storyboard */; };
 		2E7653AC226DD66F00570A80 /* DocScanner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2E7653AA226DD66F00570A80 /* DocScanner.xcdatamodeld */; };
 		2E7653AE226DD67000570A80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E7653AD226DD67000570A80 /* Assets.xcassets */; };
@@ -39,9 +47,17 @@
 
 /* Begin PBXFileReference section */
 		2C6425EFCF53A6F58A1A2FA4 /* Pods_DocScannerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DocScannerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E0119B62273664000E5BA89 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		2E0119B822736B5700E5BA89 /* DocService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocService.swift; sourceTree = "<group>"; };
+		2E0119BE22759ED200E5BA89 /* DocRecord+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "DocRecord+CoreDataClass.swift"; path = "/Volumes/Data/Sam Projects/Github Projects/DocScanner/DocScanner/DocRecord+CoreDataClass.swift"; sourceTree = "<absolute>"; };
+		2E0119BF22759ED300E5BA89 /* DocRecord+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "DocRecord+CoreDataProperties.swift"; path = "/Volumes/Data/Sam Projects/Github Projects/DocScanner/DocScanner/DocRecord+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		2E0119C22275B35B00E5BA89 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		2E0119C42275C69400E5BA89 /* PDFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewController.swift; sourceTree = "<group>"; };
+		2E478A1B2273518200CB2B5F /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		2E478A1D2273539600CB2B5F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		2E478A1F2273541700CB2B5F /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		2E7653A0226DD66F00570A80 /* DocScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E7653A3226DD66F00570A80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2E7653A5226DD66F00570A80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2E7653A8226DD66F00570A80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E7653AB226DD66F00570A80 /* DocScanner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DocScanner.xcdatamodel; sourceTree = "<group>"; };
 		2E7653AD226DD67000570A80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -101,6 +117,36 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		2E0119B5227365BC00E5BA89 /* CoreDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				2E0119BE22759ED200E5BA89 /* DocRecord+CoreDataClass.swift */,
+				2E0119BF22759ED300E5BA89 /* DocRecord+CoreDataProperties.swift */,
+				2E0119B62273664000E5BA89 /* CoreDataStack.swift */,
+			);
+			name = CoreDataModel;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		2E478A1A22734EDC00CB2B5F /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				2E478A1B2273518200CB2B5F /* MainTableViewCell.swift */,
+				2E478A1D2273539600CB2B5F /* MainViewController.swift */,
+				2E0119C22275B35B00E5BA89 /* DetailViewController.swift */,
+				2E0119C42275C69400E5BA89 /* PDFViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		2E478A212273541C00CB2B5F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				2E478A1F2273541700CB2B5F /* RoundButton.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		2E765397226DD66F00570A80 = {
 			isa = PBXGroup;
 			children = (
@@ -127,12 +173,15 @@
 			isa = PBXGroup;
 			children = (
 				2E7653A3226DD66F00570A80 /* AppDelegate.swift */,
-				2E7653A5226DD66F00570A80 /* ViewController.swift */,
 				2E7653A7226DD66F00570A80 /* Main.storyboard */,
 				2E7653AD226DD67000570A80 /* Assets.xcassets */,
 				2E7653AF226DD67000570A80 /* LaunchScreen.storyboard */,
 				2E7653B2226DD67000570A80 /* Info.plist */,
 				2E7653AA226DD66F00570A80 /* DocScanner.xcdatamodeld */,
+				2E0119B5227365BC00E5BA89 /* CoreDataModel */,
+				2E478A1A22734EDC00CB2B5F /* controller */,
+				2E478A212273541C00CB2B5F /* view */,
+				2E0119B822736B5700E5BA89 /* DocService.swift */,
 			);
 			path = DocScanner;
 			sourceTree = "<group>";
@@ -165,7 +214,6 @@
 				CA1CA93F705BDCC537A0283A /* Pods-DocScannerUITests.debug.xcconfig */,
 				48896CBCD5B0E5B88EEB1983 /* Pods-DocScannerUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -180,6 +228,7 @@
 				2E76539C226DD66F00570A80 /* Sources */,
 				2E76539D226DD66F00570A80 /* Frameworks */,
 				2E76539E226DD66F00570A80 /* Resources */,
+				03389B7989F0D33CDA9F4436 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -299,6 +348,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		03389B7989F0D33CDA9F4436 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DocScanner/Pods-DocScanner-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/WeScan/WeScan.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WeScan.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DocScanner/Pods-DocScanner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		1E36D030B01FFF12C47140F9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -372,9 +443,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E0119B72273664000E5BA89 /* CoreDataStack.swift in Sources */,
+				2E0119C52275C69400E5BA89 /* PDFViewController.swift in Sources */,
+				2E0119B922736B5700E5BA89 /* DocService.swift in Sources */,
 				2E7653AC226DD66F00570A80 /* DocScanner.xcdatamodeld in Sources */,
-				2E7653A6226DD66F00570A80 /* ViewController.swift in Sources */,
+				2E478A202273541700CB2B5F /* RoundButton.swift in Sources */,
+				2E478A1C2273518200CB2B5F /* MainTableViewCell.swift in Sources */,
+				2E0119C022759ED300E5BA89 /* DocRecord+CoreDataClass.swift in Sources */,
+				2E0119C122759ED300E5BA89 /* DocRecord+CoreDataProperties.swift in Sources */,
+				2E0119C32275B35B00E5BA89 /* DetailViewController.swift in Sources */,
 				2E7653A4226DD66F00570A80 /* AppDelegate.swift in Sources */,
+				2E478A1E2273539600CB2B5F /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

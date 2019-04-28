@@ -6,6 +6,7 @@ target 'DocScanner' do
   use_frameworks!
 
   # Pods for DocScanner
+  pod 'WeScan', '>= 0.9'
 
   target 'DocScannerTests' do
     inherit! :search_paths
